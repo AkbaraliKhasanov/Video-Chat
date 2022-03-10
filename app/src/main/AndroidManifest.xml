@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VideoChat">
         <activity
-            android:name=".signup.SignInActivity"
+            android:name=".signin.SignInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".signup.SignUpActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
